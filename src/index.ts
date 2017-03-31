@@ -11,7 +11,7 @@ class State {
     public options: string;
 }
 
-class StorageSample {
+class ResourceManagementSample {
     private resourceGroupName = Helpers.generateRandomId('testrg');
     private resourceName = Helpers.generateRandomId('testresource');
 
@@ -171,6 +171,6 @@ main();
 function main() {
     Helpers.validateEnvironmentVariables();
     let state = new State();
-    let driver = new StorageSample(state);
+    let driver = new ResourceManagementSample(state);
     driver.execute();
 }
