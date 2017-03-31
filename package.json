@@ -1,0 +1,15 @@
+{
+    "name": "resource-management-typescript",
+    "description": "This sample demonstrates how to manage Azure resources and resource groups using a typescript client.",
+    "version": "0.1.0",
+    "main": "./out/src/index.js",
+    "dependencies": {
+        "ms-rest": "^2.0.0",
+        "ms-rest-azure": "^2.0.0",
+        "azure-arm-resource": "^1.6.1-preview"
+    },
+    "devDependencies": {
+        "eslint": "*",
+        "@types/node": "*"
+    }
+}
